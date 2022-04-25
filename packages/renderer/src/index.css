@@ -1,0 +1,21 @@
+.app {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+.app-title {
+    grid-column: 2;
+    width: max-content;
+    height: max-content;
+    place-self: center;
+}
+.app-openers {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app-openers button {
+    min-height: 5vh;
+}
